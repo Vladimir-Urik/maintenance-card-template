@@ -1,0 +1,126 @@
+:root {
+    --linkedin-color: #0077b5;
+    --github-color: #333;
+    --instagram-color: #e1306c;
+    --youtube-color: #ff0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+body > .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+}
+
+body > .card > h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+body > .card > p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socials {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials > a {
+    display: inline-block;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    padding: 2px;
+    color: var(--linkedin-color);
+}
+
+.socials > a:hover {
+    background-color: var(--linkedin-color);
+    color: #fff;
+    padding: 2px;
+}
+
+.socials > a:visited {
+    color: var(--linkedin-color);
+}
+
+.socials > a:visited:hover {
+    color: #fff;
+}
+
+.socials > a.instagram {
+    color: var(--instagram-color);
+}
+
+.socials > a.instagram:hover {
+    color: #fff;
+    background-color: var(--instagram-color);
+}
+
+.socials > a.instagram:visited {
+    color: var(--instagram-color);
+}
+
+.socials > a.youtube {
+    color: var(--youtube-color);
+}
+
+.socials > a.youtube:hover {
+    color: #fff;
+    background-color: var(--youtube-color);
+}
+
+.socials > a.youtube:visited {
+    color: var(--youtube-color);
+}
+
+.socials > a.github {
+    color: var(--github-color);
+}
+
+.socials > a.github:hover {
+    color: #fff;
+    background-color: var(--github-color);
+}
+
+.socials > a.github:visited {
+    color: var(--github-color);
+}
+
+.socials > a.github:visited:hover {
+    color: #fff;
+}
+
+.socials > a.youtube:visited:hover {
+    color: #fff;
+}
+
+.socials > a.instagram:visited:hover {
+    color: #fff;
+}
